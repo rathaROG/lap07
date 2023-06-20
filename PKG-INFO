@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
-Name: lap05
+Name: lap07
 Version: 0.5.1
 Summary: Linear Assignment Problem solver (LAPJV/LAPMOD).
-Home-page: https://github.com/gatagat/lap
-Download-URL: https://github.com/gatagat/lap
-Maintainer: Tomas Kazmar
-Maintainer-email: tomash.kazmar@seznam.cz
+Home-page: https://github.com/rathaROG/lap
+Download-URL: https://github.com/rathaROG/lap
+Maintainer: rathaROG
+Maintainer-email: ratha@planet.earth
 License: BSD (2-clause)
 Platform: UNKNOWN
 Classifier: Development Status :: 4 - Beta

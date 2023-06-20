@@ -165,9 +165,7 @@ def setup_package():
         metadata['configuration'] = configuration
         if len(sys.argv) >= 2 and sys.argv[1] not in 'config':
             print('Generating cython files')
-            cwd = os.path.abspath(os.path.dirname(__file__))
-            if not os.path.exists(os.path.join(cwd, 'PKG-INFO')):
-                generate_cython()
+            generate_cython()
     setup(**metadata)
 
 def install_reqs():
