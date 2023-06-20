@@ -1,10 +1,21 @@
 # Linear Assignment Problem Solver
 
-* lap07 is a customized version of Tomas Kazmar's lap05
+lap07 is a customized version of Tomas Kazmar's lap05.
 
-* Install:
+## Install:
+
+* Clone and build:
+
   ```
-  pip install git+git://github.com/rathaROG/lap07.git
+  git clone https://github.com/rathaROG/lap07.git
+  cd lap07
+  create_whl.cmd
+  ```
+
+* Or direct install (Not recommend!):
+
+  ```
+  pip install git+https://github.com/rathaROG/lap07.git
   ```
 
 <br />
