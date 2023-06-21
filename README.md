@@ -1,8 +1,11 @@
 # Linear Assignment Problem Solver
 
-lap07 is a customized version of Tomas Kazmar's lap05.
+lap07 (v0.5.1) is a customized version of Tomas Kazmar's lap05.
 
-## Install:
+## 📥 Installation
+---
+
+### On Windows
 
 * Clone and build:
 
@@ -10,13 +13,24 @@ lap07 is a customized version of Tomas Kazmar's lap05.
   git clone https://github.com/rathaROG/lap07.git
   cd lap07
   create_whl.cmd
+  cd dist
+  rem pip install your lap07-0.5.1-cp3xx-cp3xx-win_amd64.whl
   ```
+* Test passed on Windows 11, Python 3.10 + Cython 0.29.35 ✅
 
-* Or direct install (Not recommend!):
+### On Linux
+
+* Clone and build:
 
   ```
-  pip install git+https://github.com/rathaROG/lap07.git
+  git clone https://github.com/rathaROG/lap07.git
+  cd lap07
+  pip install wheel build
+  python -m build --wheel --skip-dependency-check --no-isolation
+  cd dist
+  pip install *.whl
   ```
+* Test passed on GitHub `ubuntu-latest`, Ubuntu 22.04, Python 3.11 + Cython 0.29.35 ✅
 
 <br />
 
